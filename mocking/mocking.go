@@ -2,9 +2,10 @@
 package mocking
 
 import (
-	"github.com/rcrowley/go-tigertonic"
 	"net/http"
 	"net/url"
+
+	"github.com/glycerine/go-tigertonic"
 )
 
 // Header augments an optional existing http.Header with Accept and
